@@ -45,42 +45,51 @@ To do so go into `Preferences -> Settings - User`.
 #### Commit on tab instead of enter
 When sublime propose you some actions this options allow you to confirm it by hitting `tab` instead or `enter` this allows you to differenciate between a newline and validating an action:
 
-    "auto_complete_commit_on_tab": true,
-    "auto_complete_delay": 0
+```json
+"auto_complete_commit_on_tab": true,
+"auto_complete_delay": 0
+```
 
 #### Highlight line
 Highlight the line where the cursor is located:
 
-    "highlight_line": true,
+``` json
+"highlight_line": true,
+```
 
 #### Highlight modified tab
 This highlight every tab where a modification has been made since the last save:
 
-    "highlight_modified_tabs": true,
+``` json
+"highlight_modified_tabs": true,
+```
 
 #### Trim and add spaces
 This add a newline at the end of file and trim trailing white spaces:
 
-    "ensure_newline_at_eof_on_save": true,
-    "trim_trailing_white_space_on_save": true
+``` json
+"ensure_newline_at_eof_on_save": true,
+"trim_trailing_white_space_on_save": true
+```
 
 #### Full configuration file
 Here is our full configuration file:
-
-    {
-        "auto_complete_commit_on_tab": true,
-        "auto_complete_delay": 0,
-        "bold_folder_labels": true,
-        "ensure_newline_at_eof_on_save": true,
-        "highlight_line": true,
-        "highlight_modified_tabs": true,
-        "rulers":
-        [
-            80
-        ],
-        "scroll_past_end": true,
-        "trim_trailing_white_space_on_save": true
-    }
+``` json
+{
+    "auto_complete_commit_on_tab": true,
+    "auto_complete_delay": 0,
+    "bold_folder_labels": true,
+    "ensure_newline_at_eof_on_save": true,
+    "highlight_line": true,
+    "highlight_modified_tabs": true,
+    "rulers":
+    [
+        80
+    ],
+    "scroll_past_end": true,
+    "trim_trailing_white_space_on_save": true
+}
+```
 
 ## Projects
 
