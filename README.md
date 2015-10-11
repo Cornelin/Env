@@ -2,7 +2,12 @@
 An environment to optimize your workflow
 
 # Operations Systems
+
 ## Mac OS X
-### Text Editor
+### Text Editors
+
 ## Windows
+### Text Editors
+
 ## Linux
+### Text Editors
