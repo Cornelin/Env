@@ -106,6 +106,44 @@ When you are all set just hit `⌘` + `ctrl` + `p`, select your project and then
 #### Install a plugin
 After you installed the package control, hit `⌘` + `⇧` + `P` to open the command palette and type `install` then press `enter`. Next, type in the name of the plugin you want to install and press `enter` to install it.
 
+#### [Alignment]
+> Dead-simple alignment of multi-line selections and multiple selections
+
+This plugin is great but need some configuration in order to work according to our guidelines
+
+Click `Sublime Text` -> `Preferences` -> `Package Settings` -> `Alignment` -> `Settings - User`
+
+```json
+{
+    "align_indent": true,
+
+    "mid_line_tabs": false,
+
+    "alignment_chars": [":"],
+
+    "alignment_space_chars": ["="],
+
+    "alignment_prefix_chars": [
+        "+", "-", "&", "|", "<", ">", "!", "~", "%", "/", "*", ".", ":"
+    ]
+}
+```
+
+Click `Sublime Text` -> `Preferences` -> `Package Settings` -> `Alignment` -> `Key Bindings - User`
+
+```json
+[
+    { "keys": ["alt+super+a"], "command": "alignment" }
+]
+```
+
+You can know make a multi-line selection of properties you want to align (object for instance) and hit `⌘` + `alt` + `a`
+
+![img_alignment_1] ![img_alignment_2]
+
+See the difference ? All the dots are aligned following our guidelines
+
+
 - Alignment
 - All autocomplete
 - BracketHighligter
@@ -123,4 +161,8 @@ After you installed the package control, hit `⌘` + `⇧` + `P` to open the com
 [Sublime Text 3]:http://www.sublimetext.com/3
 [Package Control]:https://packagecontrol.io/
 [instructions]:https://packagecontrol.io/installation
+[Alignment]:https://packagecontrol.io/packages/Alignment
+
 [img_project]:https://github.com/Cornelin/Env/blob/master/img/project.png
+[img_alignment_1]:https://github.com/Cornelin/Env/blob/master/img/alignment_1.png
+[img_alignment_2]:https://github.com/Cornelin/Env/blob/master/img/alignment_2.png
