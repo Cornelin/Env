@@ -22,25 +22,25 @@ In order to get the most out of Sublime Text 3 you also need to install the [Pac
 
 #### Multi cursor
 
-Just select a portion of text and press `⌘ + D` to select the next occurrence. Repeat this action until you have highlighted everything you want!
+Just select a portion of text and press `⌘` +`D` to select the next occurrence. Repeat this action until you have highlighted everything you want!
 
 #### Open a folder
 
-Hit `⌘ + O` and select a folder to open an entier folder and nagivate throught all the files inside with the side bar
+Hit `⌘` + `O` and select a folder to open an entier folder and nagivate throught all the files inside with the side bar
 
 #### Quickly open a file
 
-When you are working inside a folder you can quickly open a file by hitting `⌘ + P` and type the filename you want. It's far more efficiant than selecting it from the sidebar. You can also specify a function after the file name with `@` to open a file at the given point!
+When you are working inside a folder you can quickly open a file by hitting `⌘` + `P` and type the filename you want. It's far more efficiant than selecting it from the sidebar. You can also specify a function after the file name with `@` to open a file at the given point!
 
 #### Command Palette
 
-Hit `⌘ + ⇧ + P` to access the Command Palette. The Command Palette gives you fast access to functionality. For instance let's say you want to set the syntax coloration to javascript, open the Command Palette and start typing javascript. You will see the dropdown list with Set Syntax: Javascript. This works for almost every actions you can with Sublime Text or it's plugins and snippets!
+Hit `⌘` + `⇧` + `P` to access the Command Palette. The Command Palette gives you fast access to functionality. For instance let's say you want to set the syntax coloration to javascript, open the Command Palette and start typing javascript. You will see the dropdown list with Set Syntax: Javascript. This works for almost every actions you can with Sublime Text or it's plugins and snippets!
 
 ## Advanced configuration
 
 This configuration is the final step to get your Sublime Text working as we experienced it without plugins or snippets.
 
-To do so go into `Preferences -> Settings - User`.
+To do so go into `Preferences` -> `Settings` -> `User`.
 
 #### Commit on tab instead of enter
 When sublime propose you some actions this options allow you to confirm it by hitting `tab` instead or `enter` this allows you to differenciate between a newline and validating an action:
@@ -93,12 +93,16 @@ Here is our full configuration file:
 
 ## Projects
 
-TODO
+Sublime text allows you to create Projects and save your progression and workspace for every one of them. It is really enjoyable when you work on multiple project side by side.
+
+To use them just click on `Project` -> `Save Project As...`, name your project and save it on your disk.
+
+When you are all set just hit `⌘` + `ctrl` + `p`, select your project and then hit `enter`
 
 ## Plugins
 
 #### Install a plugin
-After you installed the package control, hit `⌘ + ⇧ + P` to open the command palette and type `install` then press `enter`. Next, type in the name of the plugin you want to install and press `enter` to install it.
+After you installed the package control, hit `⌘` + `⇧` + `P` to open the command palette and type `install` then press `enter`. Next, type in the name of the plugin you want to install and press `enter` to install it.
 
 - Alignment
 - All autocomplete
