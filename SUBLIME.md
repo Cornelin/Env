@@ -99,6 +99,8 @@ To use them just click on `Project` -> `Save Project As...`, name your project a
 
 When you are all set just hit `⌘` + `ctrl` + `p`, select your project and then hit `enter`
 
+![img_project]
+
 ## Plugins
 
 #### Install a plugin
@@ -117,7 +119,8 @@ After you installed the package control, hit `⌘` + `⇧` + `P` to open the com
 - SublimeLinter
 - SublimeLinter-contib-eslint
 
-[Cornelin]: https://github.com/Cornelin
+[Cornelin]:https://github.com/Cornelin
 [Sublime Text 3]:http://www.sublimetext.com/3
 [Package Control]:https://packagecontrol.io/
 [instructions]:https://packagecontrol.io/installation
+[img_project]:https://github.com/Cornelin/Env/blob/master/img/project.png
