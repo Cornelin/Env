@@ -150,12 +150,23 @@ This plugin is really helpfull when you need to call methods or function located
 
 ![img_allAutocomplete_1]
 
+#### [EditorConfig]
+> EditorConfig helps developers maintain consistent coding styles between different editors
+
+Our settings :
+```ini
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+```
 
 
-
-
-- Alignment
-- All autocomplete
 - BracketHighligter
 - DashDoc
 - DocBlockr
@@ -173,6 +184,7 @@ This plugin is really helpfull when you need to call methods or function located
 [instructions]:https://packagecontrol.io/installation
 [Alignment]:https://packagecontrol.io/packages/Alignment
 [All Autocomplete]:https://packagecontrol.io/packages/All%20Autocomplete
+[EditorConfig]:https://packagecontrol.io/packages/EditorConfig
 
 [img_project]:https://github.com/Cornelin/Env/blob/master/img/project.png
 [img_alignment_1]:https://github.com/Cornelin/Env/blob/master/img/alignment_1.png
