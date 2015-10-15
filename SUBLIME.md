@@ -148,7 +148,7 @@ See the difference ? All the dots are aligned following our guidelines
 
 This plugin is really helpfull when you need to call methods or function located in other files. Since ST only search for matches in the current file, this plugin enhance ST greatly !
 
-![img_allAutocomplete]
+![img_allAutocomplete_1]
 
 
 
