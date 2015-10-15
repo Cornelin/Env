@@ -167,17 +167,6 @@ insert_final_newline = true
 ```
 
 
-- BracketHighligter
-- DashDoc
-- DocBlockr
-- EditorConfig
-- LoremIpsum
-- Markdown Previez
-- Markdown editing
-- Modific
-- SublimeLinter
-- SublimeLinter-contib-eslint
-
 [Cornelin]:https://github.com/Cornelin
 [Sublime Text 3]:http://www.sublimetext.com/3
 [Package Control]:https://packagecontrol.io/
