@@ -143,6 +143,14 @@ You can know make a multi-line selection of properties you want to align (object
 
 See the difference ? All the dots are aligned following our guidelines
 
+#### [All Autocomplete]
+> Extends the default autocomplete to find matches in all open files.
+
+This plugin is really helpfull when you need to call methods or function located in other files. Since ST only search for matches in the current file, this plugin enhance ST greatly !
+
+
+
+
 
 - Alignment
 - All autocomplete
@@ -162,7 +170,9 @@ See the difference ? All the dots are aligned following our guidelines
 [Package Control]:https://packagecontrol.io/
 [instructions]:https://packagecontrol.io/installation
 [Alignment]:https://packagecontrol.io/packages/Alignment
+[All Autocomplete]:https://packagecontrol.io/packages/All%20Autocomplete
 
 [img_project]:https://github.com/Cornelin/Env/blob/master/img/project.png
 [img_alignment_1]:https://github.com/Cornelin/Env/blob/master/img/alignment_1.png
 [img_alignment_2]:https://github.com/Cornelin/Env/blob/master/img/alignment_2.png
+[img_allAutocomplete_1]:https://github.com/Cornelin/Env/blob/master/img/allAutocomplete_1.png
